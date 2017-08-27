@@ -2,6 +2,8 @@
 
 namespace App;
 
+use App\Post;
+
 class Comment extends Model
 {
     public function post() 
